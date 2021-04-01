@@ -1,0 +1,65 @@
+all runtimes are measured when there is minimal processes on the computer.
+the runtimes were measured by using "time ./executable" command.
+
+we see more deviation in runtime with increase in no. of threads.
+
+subtask 2 code - 57.7sec
+
+METHOD 3 - SPLITS
+
+2 splits - best 41.885 sec
+(45.983 + 45.693 + 46.068 + 45.810 + 45.510 + 44.459)/6
+average = 45.587
+
+3 splits - best 43.490
+(47.478 + 47.801 + 47.487 + 47.246 + 47.356 + 43.919)/6
+average =  46.881
+
+4 splits -
+(46.459 + 47.487 + 47.504 + 46.823 + 48.475)/5
+average= 47.3496
+
+5 splits - best - 54.036
+(59.623 + 59.386 + 58.824 + 59.053 + 59.530 + 54.036)/6
+average = 58.409
+
+6 splits -
+(70.144 + 71.905 + 71.716 + 71.849)/4
+average = 71.4035
+
+7 splits - 
+(79.381 + 79.337 + 82.418 + 79.941)/4
+average = 80.26925
+
+8 splits -
+(87.588+83.265+82.078+83.712+84.855)/4
+average = 84.2996
+--------------------------------------------------------------------
+METHOD 4 (+1 denotes the main thread)
+2+1 threads
+(37.831 + 38.182 + 38.278 + 38.769)/4
+average = 38.265
+
+3+1 threads
+(41.972 + 42.312 + 43.123 + 43.137)/4
+average = 42.636
+
+4+1 threads = 62.772sec
+(48.568 + 49.161 + 51.492 + 48.535)/4
+average = 49.439
+
+5+1 threads
+(57.824 + 58.097 + 58.478 + 59.245)/4
+average = 58.411
+
+6+1 threads
+(68.694 + 69.850 + 69.638 + 69.607)/4
+average = 69.44725
+
+7+1 threads
+(79.888 + 79.808 + 78.639 + 79.318)/4
+average = 79.41325
+
+8+1 threads
+(82.190 + 83.955 + 84.342 + 85.301)/4
+average = 83.947
